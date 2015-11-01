@@ -1,0 +1,47 @@
+READ.ME:
+
+<< Application is suppose to be used global for any non-drupal client >>
+
+-- Note: it's strongly recommended to use a text editor such as sublime3/2 or atom when starting out
+to use python web driver automation. It will pay off later down the road --
+    Helpful tools:
+      Chrome inspect element: Tools that would be helpful on comparing/debugging code
+      Firefox firebug
+      Github
+      Sublime text 2 (install the extentions as well:
+      https://packagecontrol.io/installation#st2
+
+
+    Requirements:
+		  Basic knowledge of a text editor
+			Basic knowledge of terminal (I added in helpful hints in the documentation)
+			Github
+
+
+*Configurations*
+
+    -- Note: For people who have no programming skills and or for people that want to set up from the start --
+
+    To use Terminal:
+    1. Go to the search button located on the top right corner of your mac
+    2. Click and type, "Terminal"
+    3. A box will appear that will show the current directory you are on.
+    4. In order to install python3, you have follow the directions below, which will help you install homebrew, pip, django, etc
+    5. Other useful commands in terminal are, "cd - change directory - use for going to differing files", "rm - remove - to remove a certain item in a directory", "ls - list - list items in the current directory"
+
+    To install Python3:
+    1. Python
+        I.	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+        II.	brew doctor
+        II.	brew install python3
+    2. Installing Django
+        I.	pip3 install django
+
+
+
+
+*Running tests in python in directory* 
+
+Run test:
+nosetests (runs the test suite)
+nosetests tests/test_test.py — no capture —nologcapture (runs the individual test in the suite)

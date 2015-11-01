@@ -1,0 +1,15 @@
+[selenium]
+; Change these values if you plan on running your tests against the vagrant box
+BS_USERNAME = placeholder
+BS_ACCESS_KEY = placeholder
+
+; The browser you want to use on the browerstack grid
+CAPABILITIES = chrome
+
+; The application URL you're testing.
+APP_URL = placeholder
+
+; Application information (ease of life values)
+USERNAME = application username
+PASSWORD = application password
+RAMS_ID = ed_id value from rams cookie
